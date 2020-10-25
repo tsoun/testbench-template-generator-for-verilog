@@ -53,7 +53,7 @@ int main(){
     char * str2 = malloc(sizeof(char)*24);
     DataList bit_list = NULL;
     int * temp = malloc (sizeof(int) * vars);
-    printf("<<Welcome to the Testbench Template Generator (TTGen) by th_valb7>>\n==============================================\n");
+    printf("<<<Welcome to the Testbench Template Generator (TTGen) by th_valb7>>>\n==============================================\n");
     printf(">>Please insert the name of this CUT: ");
     scanf("%s", cut);  
     printf(">>Please insert the format of the inputs (i.e. 'In' or 'in' for In* and in* respectively): ");
